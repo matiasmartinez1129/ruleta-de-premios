@@ -1,5 +1,7 @@
 
 body {
+  width: 100%;
+  height: auto;
   font-family: Arial, sans-serif;
   text-align: center;
   background-image: url(../img/fondo-ruleta.jpg);
@@ -85,12 +87,15 @@ body {
 }
 .content-animation {
   animation: slideInfinity 15s linear infinite;
+  white-space: nowrap; /* Evita desbordes horizontales en texto animado */
+  overflow: hidden;
+  max-width: 100%; /* No permitas que el contenido supere el ancho del contenedor */
 
 }
 
 @keyframes slideInfinity {
   0% {
-    transform: translateX(100%);
+    transform: translateX(0);
   }
   100% {
     transform: translateX(-100%);
