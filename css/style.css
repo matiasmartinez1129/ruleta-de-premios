@@ -77,9 +77,11 @@ body {
 }
 
 .bg-slide {
+  width: 100%;
   background-color: #F57F5B;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   
   
   
@@ -87,14 +89,8 @@ body {
 .content-animation {
   animation: slideInfinity 15s linear infinite;
   white-space: nowrap; /* Evita desbordes horizontales en texto animado */
-  overflow: hidden;
   max-width: 100%; /* No permitas que el contenido supere el ancho del contenedor */
 
-}
-.content-animation h1 {
-  display: inline-block;
-  
-  
 }
 @keyframes slideInfinity {
   0% {
