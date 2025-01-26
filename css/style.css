@@ -91,7 +91,11 @@ body {
   max-width: 100%; /* No permitas que el contenido supere el ancho del contenedor */
 
 }
-
+.content-animation h1 {
+  display: inline-block;
+  
+  
+}
 @keyframes slideInfinity {
   0% {
     transform: translateX(0);
