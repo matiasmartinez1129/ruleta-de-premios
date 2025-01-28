@@ -105,6 +105,7 @@ body {
 }
 
 #marker {
+  
   position: absolute;
   top: -10px;
   left: 57%;
@@ -119,7 +120,15 @@ body {
 }
 
 /* MEDIA QUERIES */
-
+@media (max-width: 768px) {
+  #marker {
+    top: -5px;
+    border-left: 10px solid transparent; /* Reducir ancho de los lados */
+    border-right: 10px solid transparent;
+    border-top: 20px solid red; /* Reducir altura de la flecha */
+    left: 67%;
+  }
+}
 @media (max-width: 625px) {
   .content-animation h1 {
     font-size: 15px;
