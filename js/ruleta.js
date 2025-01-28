@@ -10,7 +10,7 @@ const segments = [
   "10% descuento",
   "Nos vemos la próxima",
   "Premio sorpresa",
-  "Premio sorpresa",
+  "Gira de nuevo",
   "10% descuento",
   "Premio sorpresa",
 ];
